@@ -1,15 +1,14 @@
 <div class="site-brand-wrapper">
   <div class="site-meta {% if theme.custom_logo.enabled %}custom-logo{% endif %}">
-
     {% if theme.custom_logo.image and theme.scheme === 'Muse' %}
       <div class="site-meta-headline">
-
         <a>
           <img class="custom-logo-image" src="{{ theme.custom_logo.image }}"
                alt="{{ config.title }}"/>
         </a>
       </div>
     {% endif %}
+
     <div class="custom-logo-site-title">
       <a href="{{ config.root }}"  class="brand" rel="start">
         <span class="logo-line-before"><i></i></span>
@@ -40,12 +39,12 @@
     <ul id="menu" class="menu">
       {% for name, path in theme.menu %}
         {% set itemName = name.toLowerCase() %}
-        <li class="menu-item menu-item-{{ itemName }}">
-          <a href="{{ url_for(path) }}" rel="section">
+        <li class="menu-item menu-item-{{ itemName | replace(' ', '-') }}">
+          <a href="{{ url_for(path.split('||')[0]) | trim }}" rel="section">
             {% if theme.menu_icons.enable %}
-              <i class="menu-item-icon fa fa-fw fa-{{theme.menu_icons[itemName] | default('question-circle') | lower }}"></i> <br />
+              <i class="menu-item-icon fa fa-fw fa-{{ path.split('||')[1] | trim | default('question-circle') }}"></i> <br />
             {% endif %}
-            {{ __('menu.' + name) }}
+            {{ __('menu.' + name) | replace('menu.', '') }}
           </a>
         </li>
       {% endfor %}
