@@ -1,22 +1,20 @@
 ---
-title: 关于我
+title: About
 ---
 
-> 2007年开始接触互联网；
+> 2007: Started getting involved with the internet.
 
-> 2013年开始接触web开发；
+> 2013: Started learning web development.
 
-> 2014年开始接触 Ruby，并作为主要的开发语言；
+> 2014: Started learning Ruby and it became my primary programming language.
 
-> 2015年首次参加工作，加入[包拯](https://home.baozheng.cc/)(真有两把刷子（北京）科技),担任ruby开发工程师;
+> 2015: Joined [Baozheng (Beijing) Technology](https://home.baozheng.cc/) as a Ruby developer.
 
-> 2016年加入【阳光公采】, 担任全栈开发工程师;
+> 2016: Joined 阳光公采 as a full-stack developer.
 
-> 2018年加入【一起印】，担任后端开发工程师;
+> 2018: Joined 一起印 as a backend developer.
 
-> 2019年加入[派悦坊](https://www.pantrysbest.com/), 担任全栈开发工程师;
+> 2019: Joined [派悦坊](https://www.pantrysbest.com/) as a full-stack developer.
 
-> 2020年移居天津，加入北美亚洲美食外卖平台[饭团外卖](https://fantuan.ca/)(天津市莱斯宝科技), 担任后端开发工程师
-> - 负责维护老ruby项目
-> - ruby迁移java
-> - 外卖系统核心工程开发
+> 2020: Moved to Tianjin and joined Fantuan Delivery (https://fantuan.ca/) as a backend developer.
+
