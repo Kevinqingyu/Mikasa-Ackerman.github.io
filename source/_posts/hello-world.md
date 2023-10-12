@@ -8,7 +8,7 @@ title: About
 
 > 2014: Started learning Ruby and it became my primary programming language.
 
-> 2015: Joined [Baozheng (Beijing) Technology](https://home.baozheng.cc/) as a Ruby developer.
+> 2015: Joined [Baozheng](https://home.baozheng.cc/) as a Ruby developer.
 
 > 2016: Joined 阳光公采 as a full-stack developer.
 
@@ -16,5 +16,5 @@ title: About
 
 > 2019: Joined [派悦坊](https://www.pantrysbest.com/) as a full-stack developer.
 
-> 2020: Moved to Tianjin and joined Fantuan Delivery (https://fantuan.ca/) as a backend developer.
+> 2020: Moved to Tianjin and joined [Fantuan Delivery](https://fantuan.ca/) as a backend developer.
 
